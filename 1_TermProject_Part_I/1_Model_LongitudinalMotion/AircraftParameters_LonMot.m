@@ -8,19 +8,19 @@ CNT_StepSize=1E-3;
 
 %% Trim Point
 
-TrimPoint.States.debar = deg2rad(-6.8640);
-TrimPoint.States.dtbar = 0.185;
+TrimPoint.States.debar = -0.11835;
+TrimPoint.States.dtbar = 0.36015;
 
-TrimPoint.States.X_P = 2000;
+TrimPoint.States.X_P = 5410.3453;
 
-TrimPoint.States.Thetabar = deg2rad(4);
+TrimPoint.States.Thetabar = 0.073028;
 
-TrimPoint.States.Altbar   = 3000;
+TrimPoint.States.Altbar   = 4004.9965;
 
-TrimPoint.States.ubar = 120*cos(TrimPoint.States.Thetabar);
-TrimPoint.States.wbar = 120*sin(TrimPoint.States.Thetabar);  
+TrimPoint.States.ubar = 129.5376;
+TrimPoint.States.wbar = 9.4767;  
 
-TrimPoint.States.qbar = deg2rad(0);
+TrimPoint.States.qbar = 0;
 
 
 %% Inertia
